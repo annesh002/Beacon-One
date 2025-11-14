@@ -29,28 +29,33 @@ h2 {
     font-family: "SangBleu";
     color: #18212D;
 }
-.row{
+
+.row {
     display: flex;
     margin: 0 -15px;
     flex-wrap: wrap;
 }
-.col{
+
+.col {
     padding: 0 15px;
 }
+
 .col-50 {
     width: 50%;
 }
-.col-25{
+
+.col-25 {
     width: 25%;
 }
-.col-50 .col-25{
+
+.col-50 .col-25 {
     width: 50%;
 }
 
 .nav-container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 15px ;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,7 +156,7 @@ h2 {
 .hero-img-box img {
     width: 100%;
     display: block;
-    border-radius: 30px 30px 0 0 ;
+    border-radius: 30px 30px 0 0;
 }
 
 
@@ -380,9 +385,10 @@ h2 {
     color: #666666;
 }
 
-.contact-banner .main-container{
+.contact-banner .main-container {
     padding: 80px 20px;
 }
+
 .contact-banner {
     background-image: url(../images/GTU-bg.png);
     background-position: center;
@@ -460,27 +466,28 @@ h2 {
     margin-bottom: 20px;
     font-weight: 400;
     position: relative;
-    padding-bottom:10px ;
+    padding-bottom: 10px;
 }
 
-.footer-newsletter h4::after{
+.footer-newsletter h4::after {
     position: absolute;
     content: "";
     border-bottom: 1px solid white;
     bottom: 0;
-    left:0;
+    left: 0;
     z-index: 100;
-    width:55%;
+    width: 55%;
 
 }
-.footer-links h4::after{
+
+.footer-links h4::after {
     position: absolute;
     content: "";
     border-bottom: 1px solid white;
     bottom: 0;
-    left:0;
+    left: 0;
     z-index: 100;
-    width:55%;
+    width: 55%;
 
 }
 
@@ -552,13 +559,14 @@ hr {
 }
 
 @media (max-width: 992px) {
-    
-    .logo{
+
+    .logo {
         height: 80px;
         bottom: -40px;
         width: 120px;
     }
-     .col-50 {
+
+    .col-50 {
         width: 100%;
     }
 
@@ -643,7 +651,7 @@ hr {
         width: 100%;
         height: 310px;
     }
-    
+
 
     .banner-inner {
         flex-direction: column;
@@ -668,7 +676,8 @@ hr {
         height: 70px;
         /* bottom: -45px; */
     }
-   .col-50,
+
+    .col-50,
     .col-25 {
         width: 100% !important;
     }
@@ -719,7 +728,7 @@ hr {
         border-radius: 40px;
         padding: 12px 0;
     }
-    
+
 }
 
 @media (max-width: 430px) {

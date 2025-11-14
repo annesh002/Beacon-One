@@ -14,25 +14,25 @@ const nextBtn = document.querySelector(".arrow-btn.next");
 let current = 0;
 
 function setActive(i) {
-  avatars.forEach(a => a.classList.remove("active"));
-  avatars[i].classList.add("active");
+    avatars.forEach(a => a.classList.remove("active"));
+    avatars[i].classList.add("active");
 }
 
 prevBtn.addEventListener("click", () => {
-  current = (current - 1 + avatars.length) % avatars.length;
-  setActive(current);
+    current = (current - 1 + avatars.length) % avatars.length;
+    setActive(current);
 });
 
 nextBtn.addEventListener("click", () => {
-  current = (current + 1) % avatars.length;
-  setActive(current);
+    current = (current + 1) % avatars.length;
+    setActive(current);
 });
 
 avatars.forEach((avatar, i) =>
-  avatar.addEventListener("click", () => {
-    current = i;
-    setActive(current);
-  })
+    avatar.addEventListener("click", () => {
+        current = i;
+        setActive(current);
+    })
 );
 
 setActive(current);
